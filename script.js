@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     // 1. CONFIGURAÇÃO DO WHATSAPP
     const phoneNumber = "5565999589043";
-    const waMessage = "Olá Anthony! Vi seu portfólio na PereiraAnthony.co e gostaria de saber mais sobre os serviços de vocês.";
+    const waMessage = "Olá Anthony! Vi seu portfólio na Thadaiesky & Co. e gostaria de saber mais sobre os serviços de vocês.";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(waMessage)}`;
 
     const whatsappFloat = document.getElementById("whatsapp-float");
@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // 2. CONFIGURAÇÃO DO E-MAIL (GMAIL DIRECT WEB)
     const emailAddress = "contato.anthonypereira@gmail.com";
-    const emailSubject = "Orçamento e Informações - PereiraAnthony.co";
-    const emailBody = "Olá Anthony,\n\nGostaria de solicitar um orçamento/informações sobre os serviços da PereiraAnthony.co.";
+    const emailSubject = "Orçamento e Informações - Thadaiesky & Co.";
+    const emailBody = "Olá Anthony,\n\nGostaria de solicitar um orçamento/informações sobre os serviços da Thadaiesky & Co.";
     const gmailWebUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${emailAddress}&su=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
 
     const emailBtns = document.querySelectorAll(".email-action");
